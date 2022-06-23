@@ -1,0 +1,288 @@
+/*Адаптація Устроіств*/
+
+@media (max-width:1050px) {
+  .content {
+    min-width:801px;
+    }
+  .progress {
+    width:100%;
+  }
+  .kartuna {
+    margin-left:315px;
+    margin-top:60px;
+    width:600px;
+    height:440px;
+  }
+
+  .kartuna:hover {
+    transition: top 2s ease-in-out;
+    animation: render 2s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+
+  @keyframes render {
+    0% {
+      margin-left:100px;
+      margin-top:-100px;
+      opacity:0;
+    }
+    50% {
+      margin-left:250px;
+      margin-top:-20px;
+      opacity:1;
+    }
+
+    100% {
+      margin-left:325px;
+      margin-top:60px;
+      opacity:2;
+    }
+  }
+
+  #text {
+    margin-left:150px;
+  }
+
+  .pizza {
+    margin-top:30px;
+    margin-left:-30px;
+    width:210px;
+    height:130px;
+  }
+
+  .text-pruvu {
+    margin-top:-85px;
+    margin-left:150px;
+    font-size:35px;
+    color:#7AFA4F;
+  }
+
+  .imeg-dekor {
+    opacity:0;
+  }
+
+  #table {
+    margin-top:700px;
+    opacity:0;
+  }
+
+  .coint {
+    margin-top:-85px;
+  }
+
+  footer {
+    margin-top:1430px;
+  }
+
+  .footer-cow {
+    margin-left:-100px;
+  }
+  .footer-blak {
+    margin-left:-250px;
+  }
+  .text-h1 {
+    position: absolute;
+    margin-left:350px;
+    margin-top:-80px;
+  }
+  .imeg-dekor {
+    margin-left:300px;
+    opacity:.5;
+  }
+  .imeg-dekor:hover {
+    opacity: 1;
+  }
+  #blok-text {
+    font-size:25px;
+  }
+
+  table {
+    margin-top:-1360px;
+    margin-left:50px;
+  }
+
+  td {
+    padding:0px;
+    margin:0px;
+  }
+
+  .text-bob {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-left:-20px;
+    transition: all 2s;
+    margin-top:520px;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-ball {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-left:305px;
+    transition: all 2s;
+    margin-top:520px;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-cat {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-left:630px;
+    transition: all 2s;
+    margin-top:520px;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-rat {
+    position: absolute;
+    margin-top:820px;
+    background:#fff;
+    border-radius:30px;
+    transition: all 2s;
+    margin-left:-20px;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-sos {
+    background:#fff;
+    position: absolute;
+    border-radius:30px;
+    margin-top:820px;
+    margin-left:305px;
+    transition: all 2s;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-pan {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-top:820px;
+    margin-left:630px;
+    transition: all 2s;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-dog {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-top:1120px;
+    margin-left:-20px;;
+    transition: all 2s;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-gress {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-top:1120px;
+    margin-left:305px;
+    transition: all 2s;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+  .text-book {
+    background:#fff;
+    border-radius:30px;
+    position: absolute;
+    margin-top:1120px;
+    margin-left:630px;
+    transition: all 2s;
+    width:250px;
+    height:270px;
+    opacity:0;
+  }
+
+  .text-bob:hover ,
+  .text-ball:hover ,
+  .text-cat:hover ,
+  .text-rat:hover ,
+  .text-sos:hover ,
+  .text-pan:hover ,
+  .text-dog:hover ,
+  .text-gress:hover ,
+  .text-book:hover {
+    background:#C3D900;
+    opacity:1;
+    color:#fff;
+  }
+
+  .imeg {
+    position: absolute;
+    margin-top:510px;
+    margin-left:30px;
+  }
+
+  .imeg-doll {
+    position: absolute;
+    margin-top:517px;
+    margin-left:358px;
+  }
+
+  .imeg-boy {
+    position: absolute;
+    margin-top:520px;
+    margin-left:680px;
+  }
+
+  .imeg-star {
+    position: absolute;
+    margin-top:848px;
+    margin-left:33px;
+  }
+
+  .imeg-frog {
+    position: absolute;
+    margin-top:815px;
+    margin-left:358px;
+  }
+
+  .imeg-like {
+    position: absolute;
+    margin-top:820px;
+    margin-left:680px;
+  }
+
+  .imeg-spoom {
+    position: absolute;
+    margin-top:1090px;
+    margin-left:33px;
+  }
+
+  .imeg-gun {
+    position: absolute;
+    margin-top:1080px;
+    margin-left:358px;
+  }
+
+  .imeg-shark {
+    position: absolute;
+    margin-top:1125px;
+    margin-left:685px;
+  }
+
+}
+@media (max-width:800px) {
+  .content {
+    min-width:481px;
+  }
+}
+@media (max-width:480px) {
+  .content {
+    min-width:none;
+  }
+}
